@@ -1,0 +1,123 @@
+.background {
+    background-image: url('../assets/banner-initial.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .descricao-principal {
+    font-size: 5rem;
+  }
+  
+  .btn-danger {
+    --bs-btn-bg: red;
+  }
+  
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black!important;
+  }
+  
+  .subtitulo {
+    font-size: 3.4rem;
+  }
+  /* #303030 */
+  .accordionn {
+    width: 60%;
+    --bs-accordion-border-color: white;
+    --bs-accordion-border-width: 0;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-btn-bg: #303030;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M13 25.8334C12.4806 25.8334 12.0455 25.6574 11.6947 25.3054C11.3427 24.9546 11.1667 24.5195 11.1667 24V14.8334H2.00002C1.48058 14.8334 1.04485 14.6574 0.692854 14.3054C0.342076 13.9546 0.166687 13.5195 0.166687 13C0.166687 12.4806 0.342076 12.0449 0.692854 11.6929C1.04485 11.3421 1.48058 11.1667 2.00002 11.1667H11.1667V2.00002C11.1667 1.48058 11.3427 1.04485 11.6947 0.692854C12.0455 0.342076 12.4806 0.166687 13 0.166687C13.5195 0.166687 13.9552 0.342076 14.3072 0.692854C14.658 1.04485 14.8334 1.48058 14.8334 2.00002V11.1667H24C24.5195 11.1667 24.9546 11.3421 25.3054 11.6929C25.6574 12.0449 25.8334 12.4806 25.8334 13C25.8334 13.5195 25.6574 13.9546 25.3054 14.3054C24.9546 14.6574 24.5195 14.8334 24 14.8334H14.8334V24C14.8334 24.5195 14.658 24.9546 14.3072 25.3054C13.9552 25.6574 13.5195 25.8334 13 25.8334Z' fill='%23F5F5F5'/%3e%3c/svg%3e");
+    ;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M13 25.8334C12.4806 25.8334 12.0455 25.6574 11.6947 25.3054C11.3427 24.9546 11.1667 24.5195 11.1667 24V14.8334H2.00002C1.48058 14.8334 1.04485 14.6574 0.692854 14.3054C0.342076 13.9546 0.166687 13.5195 0.166687 13C0.166687 12.4806 0.342076 12.0449 0.692854 11.6929C1.04485 11.3421 1.48058 11.1667 2.00002 11.1667H11.1667V2.00002C11.1667 1.48058 11.3427 1.04485 11.6947 0.692854C12.0455 0.342076 12.4806 0.166687 13 0.166687C13.5195 0.166687 13.9552 0.342076 14.3072 0.692854C14.658 1.04485 14.8334 1.48058 14.8334 2.00002V11.1667H24C24.5195 11.1667 24.9546 11.3421 25.3054 11.6929C25.6574 12.0449 25.8334 12.4806 25.8334 13C25.8334 13.5195 25.6574 13.9546 25.3054 14.3054C24.9546 14.6574 24.5195 14.8334 24 14.8334H14.8334V24C14.8334 24.5195 14.658 24.9546 14.3072 25.3054C13.9552 25.6574 13.5195 25.8334 13 25.8334Z' fill='%23F5F5F5'/%3e%3c/svg%3e");
+  
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: #303030;
+    --bs-accordion-btn-padding-x: 1.5rem;
+    --bs-accordion-btn-padding-y: 1.5rem;
+  }
+  
+  .accordion-item {
+    margin-bottom: 5px;
+  }
+  .accordion-button{
+    font-size: 1.5rem;
+  }
+  .list-group-item{
+    margin-bottom: 15px;
+  }
+  .font-footer{
+    font-size: 0.9rem;
+  }
+  
+  /* HOME */
+  
+  .background-home {
+    background-image: url('../assets/images/growcast-01.png');
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-list' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z' fill='%23F5F5F5'/%3e%3c/svg%3e");
+  }
+  
+  .navbar-nav {
+    padding-left: 1rem;
+  }
+  
+  .navbar {
+    display: inline;
+  }
+  
+  .hover {
+    animation: scale 1s forwards;
+    color: white;
+    background-color: black;
+    padding: 5px;
+  }
+  
+  
+  .modal {
+    --bs-modal-width: 80%;
+    --bs-modal-padding: 0;
+    --bs-modal-margin: 0;
+    --bs-modal-bg: rgba(0, 0, 0, 0);
+    --bs-modal-header-padding: 2rem;
+    --bs-modal-header-border-width: none;
+  }
+  
+  .btn-close {
+    filter: invert(100%);
+    font-size: 1.5rem;
+  }
+  
+  @keyframes scale {
+    from {
+      transform: scale(1); /* Tamanho inicial da imagem */
+    }
+    to {
+      transform: scale(1.2); /* Tamanho final da imagem */
+    }
+  }
+  
+  
+  @media (max-width: 765px) {
+    .descricao-principal {
+        font-size: 3.5rem;
+    }
+  
+    .accordion {
+        width: 100%;
+    }
+    .accordion-button{
+        font-size: 1rem;
+    }
+  
+    .hover {
+        animation: none;
+    }
+  }
+  
+  

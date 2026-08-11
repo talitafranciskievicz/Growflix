@@ -1,1 +1,3 @@
-Link do projeto Growflix: https://growflix-git-main-talitafranciskieiczs-projects.vercel.app/
+Projeto Growflix, uma aplicação inspirada em plataformas de streaming.
+
+Link do projeto Growflix: https://growflix-ivory.vercel.app/
